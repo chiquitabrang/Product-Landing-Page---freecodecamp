@@ -1,0 +1,219 @@
+@media (max-width:96rem) {
+    .hero-content {
+        margin: auto;
+    }
+}
+    
+
+@media (max-width:75rem) {
+    #header {
+        width: 80%;
+    }
+    #nav-bar {
+        font-size: 1.5rem;
+        padding: 0.75rem;
+    }
+    .hero-content {
+        padding: 0 2rem;
+    }
+    .hero-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #ffffff;
+        text-align: end;
+        padding-right: 5rem;
+    }
+    /* ABOUT */
+    .about-section {
+        padding: 2rem 2rem;
+        margin-top: 6rem auto;
+        /* margin-right: 10rem; */
+    }
+    .about-section h2 {
+        font-size: 2rem;
+        color: #6F4E37;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .about-section p {
+        font-size: 1.5rem;
+    }
+    /* MENU SECTION */
+    #featured-products {
+        height: 100vh;
+    }
+    #featured-products h2 {
+        font-size: 2rem;
+        color: #6F4E37;
+        padding-bottom: 1rem;
+    }
+    .menu .image-container {
+        height: auto;
+    }
+    .outer-container h3 {
+        font-size: 1.5rem;
+    }
+    /* SECTION CONTACT */
+    #contact {
+        gap: 3rem;
+    }
+    #contact h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+        margin-top: 1.2rem;
+    }
+    #contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .icons {
+        gap: 1.8rem;
+    }
+    .icons i {
+        font-size: 1.8rem;
+    }
+    #form input {
+        padding: 0.8rem;
+    }
+    /* FOOTER */
+    .footer-section {
+        gap: 7rem;
+    }
+    .footer-logo img {
+        width: 6rem;
+    }
+    .social-links {
+        margin-bottom: 1rem;
+    }
+    .social-links i {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:60rem) {
+    #header {
+        height: 40px;
+        margin: 2rem auto;
+    }
+    #main-section {
+        height: auto;
+    }
+    .hero-content {
+        flex-direction: column;
+        margin: 12rem auto;
+    }
+    .hero-content h1 {
+        margin-bottom: 0.8rem;
+    }
+    .hero-text {
+        text-align: center;
+        font-size: 3rem;
+        padding-right: 0;
+    }
+    .video-container {
+        width: 45%;
+    }
+    /* ABOUT */
+    #about {
+        display: flex;
+    }
+
+    .about-section {
+        margin: auto;
+        /* width: 60%; */
+        /* margin-top: 10rem;
+        margin-right: 10rem;
+        padding: 1rem 5rem; */
+    }
+    /* MENU SECTION */
+    #featured-products {
+        height: auto;
+        padding: 3rem 3rem;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    /* SECTION CONTACT */ 
+    #contact {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+    .column-one {
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #contact h2 {
+        font-size: 2rem;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+    #form input:first-child {
+        width: 70%;
+    }
+    #form {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width:50rem) {
+    .logo-container, #main-section img {
+        display: none;
+    }
+    #header img {
+        padding-left: 0;
+    }
+    #header {
+        padding: 0;
+        width: 90%;
+    }
+    .about-section {
+        width: 100%;
+        margin-right: 0;
+        height: auto;
+    }
+}
+
+@media (max-width:40rem) {
+    #header {
+        justify-content: space-evenly;
+    }
+    #nav-bar {
+        gap: 3rem;
+    }
+    #nav-bar a {
+        padding: 0;
+    }
+}
+
+@media (max-width:30rem) {
+    #header {
+        display: block;
+    }
+    #header img {
+        display: none;
+    }
+    .hero-text {
+        font-size: 2.5rem;
+    }
+    .video-container {
+        width: 100%;
+    }
+    #about {
+        height: 100vh;
+    }
+    .menu {
+        padding: 2rem 0;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 0;
+    }
+}
