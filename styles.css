@@ -18,7 +18,7 @@ body {
 }
 
 #main-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://i.ibb.co/ZLJhvJw/background.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./Images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 75%;
@@ -67,7 +67,6 @@ body {
     padding: 1rem;
     position: fixed;
     left: 40%;
-    top: 0;
 }
 
 #nav-bar a {
@@ -116,7 +115,7 @@ iframe {
 
 /* ABOUT */
 #about {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://i.ibb.co/5r7F9zG/background2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./Images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

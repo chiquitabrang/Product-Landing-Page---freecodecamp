@@ -95,6 +95,9 @@
         height: 40px;
         margin: 2rem auto;
     }
+    #nav-bar {
+        left: 30%;
+    }
     #main-section {
         height: auto;
     }
@@ -197,9 +200,9 @@
     #header {
         display: block;
     }
-    #header img {
+    /* #header img {
         display: none;
-    }
+    } */
     .hero-text {
         font-size: 2.5rem;
     }
